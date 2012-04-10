@@ -11,9 +11,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+    dataStorageInterface.cpp \
+    dataStorageCSV.cpp \
+    eventData.cpp \
+    MainWindow.cpp \
+    dataStorageXML.cpp
 
 HEADERS  += \
-    mainwindow.h
+    dataStorageInterface.h \
+    dataStorageCSV.h \
+    eventData.h \
+    MainWindow.h \
+    dataStorageXML.h
 
 FORMS    += mainwindow.ui
